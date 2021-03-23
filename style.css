@@ -1,0 +1,23 @@
+
+html {
+    height: 80px;
+    background: lightpink;
+}
+
+@media(max-width: 920px) {
+    html{
+        background: orange;
+    }
+}
+
+@media(max-width: 768px) {
+    html {
+        background: lightyellow;
+    }
+}
+
+@media(max-width: 540px) {
+    html {
+        background: lightgreen;
+    }
+}
